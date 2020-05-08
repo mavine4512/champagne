@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainYellow: #b6a348;
+  --mainGrey: #ececec;
+  --darkGray: #929191;
+  --mainWhite: #fff;
+  --mainDark: #232528;
+}
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  background: var(--mainWhite) !important;
+}
+.text-title {
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.coverImg {
+  min-height: calc(70vh - 66px);
+  background: url("./img/champagne1.png") center/cover no-repeat;
+  display: flex;
+}
+.info {
+  color: var(--mainWhite);
+  margin-top: 4rem;
+  padding: 20px;
+}
+.header {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 320px) {
+  /*For phones: */
+  .coverImg {
+    min-height: calc(50vh - 60px);
+  }
+  .info {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /*For phones : */
+  .coverImg {
+    min-height: calc(55vh - 63px);
+  }
+  .info {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /*For phones : */
+  .coverImg {
+    min-height: calc(59vh - 63px);
+  }
+  .info {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 411px) {
+  /*For phones : */
+
+  .info {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /*For phones : */
+  .info {
+    font-size: 1.4rem;
+  }
+}

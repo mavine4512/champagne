@@ -1,0 +1,254 @@
+@font-face {
+  font-family: Arial;
+  src: url("../arial-cufonfonts/ARIALBD.TTF") format("truetype");
+  font-style: normal;
+  /* font-weight: 100; */
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.divider {
+  border-bottom: 3px solid #e79e9e;
+  width: 5%;
+  margin: auto;
+  margin-top: 0.3rem;
+  margin-bottom: 1.2rem;
+}
+.text-paragraph {
+  width: 65%;
+  font-family: Arial;
+  color: var(--darkGray);
+  text-align: center;
+  margin: auto;
+  letter-spacing: 0.09rem;
+  line-height: 1.3rem;
+}
+.imgInfo {
+  max-width: 80%;
+  min-height: 66vh;
+  margin: auto;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.leftImg {
+  width: 45%;
+  min-height: calc(76vh - 66px);
+  background: url("../../img/champagne\ with\ two\ glasses.png") center/cover
+    no-repeat;
+  float: left;
+}
+.right {
+  width: 49%;
+  float: right;
+  margin-left: 3rem;
+}
+.icon {
+  color: #c40c0c98;
+  float: left;
+}
+.title {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  margin: 0.5rem 0.5rem;
+}
+.underLine,
+.pc,
+.card {
+  color: var(--darkGray);
+  font-family: "Metrophobic", sans-serif;
+  margin-left: 1.8rem;
+}
+.Devider {
+  border-bottom: thin solid #cac9c9;
+  width: 30%;
+}
+.btn {
+  width: 15rem;
+  height: 2rem;
+  margin-top: 10px;
+  padding: 0;
+}
+.span {
+  float: "left";
+  color: var(--darkGray);
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 320px) {
+  /*For phones: */
+  .Header {
+    font-size: 0.7rem;
+  }
+  .text-paragraph {
+    font-size: 0.5rem;
+  }
+  .imgInfo {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: column;
+  }
+  .leftImg {
+    width: 90%;
+    margin: auto;
+    max-height: calc(40vh - 60px);
+  }
+  .right {
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+  }
+  .underLine,
+  .pc,
+  .card {
+    font-size: 0.4rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /*For phones : */
+  .Header {
+    font-size: 0.9rem;
+  }
+  .text-paragraph {
+    font-size: 0.7rem;
+  }
+  .imgInfo {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: column;
+  }
+  .leftImg {
+    width: 90%;
+    margin: auto;
+    max-height: calc(40vh - 60px);
+  }
+  .right {
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+  }
+  .underLine,
+  .pc,
+  .card {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /*For phones : */
+  .Header {
+    font-size: 0.9rem;
+  }
+  .text-paragraph {
+    font-size: 0.8rem;
+  }
+  .imgInfo {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: column;
+  }
+  .leftImg {
+    width: 90%;
+    margin: auto;
+    max-height: calc(40vh - 60px);
+  }
+  .right {
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  .underLine,
+  .pc,
+  .card {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 411px) {
+  /*For phones : */
+  .Header {
+    font-size: 1.4rem;
+  }
+  .text-paragraph {
+    font-size: 1rem;
+  }
+  .imgInfo {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: column;
+  }
+  .leftImg {
+    width: 90%;
+    margin: auto;
+    max-height: calc(40vh - 60px);
+  }
+  .right {
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  .underLine,
+  .pc,
+  .card {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /*For phones : */
+  .Header {
+    font-size: 1.4rem;
+  }
+  .text-paragraph {
+    font-size: 1rem;
+  }
+  .imgInfo {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: column;
+  }
+  .leftImg {
+    width: 90%;
+    margin: auto;
+    max-height: calc(40vh - 60px);
+  }
+  .right {
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  .underLine,
+  .pc,
+  .card {
+    font-size: 1rem;
+  }
+}
